@@ -12,6 +12,7 @@ Steps to debug the leak in VSCode:
 - Below, in "*Realtime performance*", select all items.
 - Open `localhost:3000` and keep refreshing the page many times. To be faster, in Chrome you can select the URL bar and press `cmd + enter` many times (or keep pressing them) to open new pages and trigger many API calls.
 - Now you should be able to see the memory leak, where the *Resident Set Size* is very high, and becomes higher and higher when you trigger many API calls simultaneously. It's also much higher than *Heap Total*.
+- **If you remove `await` from the `useQuery`, the leak will not occur.**
 
 You should see something like this:
 
