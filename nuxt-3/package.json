@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-3-urql-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "build:preview": "pnpm build && pnpm preview"
+  },
+  "dependencies": {
+    "@urql/vue": "^2.0.0",
+    "nuxt": "^3.20.1",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.10.0",
+    "@nuxt/eslint-config": "^1.10.0",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": "^20.19.5",
+    "pnpm": "^10.23.0"
+  }
+}
