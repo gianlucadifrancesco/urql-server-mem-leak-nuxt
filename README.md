@@ -14,6 +14,7 @@ Steps to debug the leak in VSCode:
 - Now you should be able to see the memory leak, where the *Resident Set Size* is very high, and becomes higher and higher when you trigger many API calls simultaneously. It's also much higher than *Heap Total*.
 
 You should see something like this:
+
 ![alt text](image.png)
 
 ---
