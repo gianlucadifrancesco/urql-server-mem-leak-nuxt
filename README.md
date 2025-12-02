@@ -15,7 +15,7 @@ Steps to debug the leak in VSCode:
 
 You should see something like this:
 
-![alt text](image.png)
+![Memory leak screenshot](image.png)
 
 ---
 
